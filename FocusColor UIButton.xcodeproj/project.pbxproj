@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBDD6681D4B4A0800B6594C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBDD6671D4B4A0800B6594C /* main.m */; };
+		CEBDD66B1D4B4A0800B6594C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBDD66A1D4B4A0800B6594C /* AppDelegate.m */; };
+		CEBDD66E1D4B4A0800B6594C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBDD66D1D4B4A0800B6594C /* ViewController.m */; };
+		CEBDD6711D4B4A0800B6594C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBDD66F1D4B4A0800B6594C /* Main.storyboard */; };
+		CEBDD6731D4B4A0800B6594C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBDD6721D4B4A0800B6594C /* Assets.xcassets */; };
+		CEBDD67D1D4B4A3E00B6594C /* FocusedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBDD67C1D4B4A3E00B6594C /* FocusedButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEBDD6631D4B4A0800B6594C /* FocusColor UIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FocusColor UIButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBDD6671D4B4A0800B6594C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBDD6691D4B4A0800B6594C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEBDD66A1D4B4A0800B6594C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEBDD66C1D4B4A0800B6594C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEBDD66D1D4B4A0800B6594C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEBDD6701D4B4A0800B6594C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBDD6721D4B4A0800B6594C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBDD6741D4B4A0800B6594C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBDD67B1D4B4A3E00B6594C /* FocusedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusedButton.h; sourceTree = "<group>"; };
+		CEBDD67C1D4B4A3E00B6594C /* FocusedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusedButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBDD6601D4B4A0800B6594C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBDD65A1D4B4A0800B6594C = {
+			isa = PBXGroup;
+			children = (
+				CEBDD6651D4B4A0800B6594C /* FocusColor UIButton */,
+				CEBDD6641D4B4A0800B6594C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBDD6641D4B4A0800B6594C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDD6631D4B4A0800B6594C /* FocusColor UIButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBDD6651D4B4A0800B6594C /* FocusColor UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDD67A1D4B4A3E00B6594C /* FocusedButton */,
+				CEBDD6691D4B4A0800B6594C /* AppDelegate.h */,
+				CEBDD66A1D4B4A0800B6594C /* AppDelegate.m */,
+				CEBDD66C1D4B4A0800B6594C /* ViewController.h */,
+				CEBDD66D1D4B4A0800B6594C /* ViewController.m */,
+				CEBDD66F1D4B4A0800B6594C /* Main.storyboard */,
+				CEBDD6721D4B4A0800B6594C /* Assets.xcassets */,
+				CEBDD6741D4B4A0800B6594C /* Info.plist */,
+				CEBDD6661D4B4A0800B6594C /* Supporting Files */,
+			);
+			path = "FocusColor UIButton";
+			sourceTree = "<group>";
+		};
+		CEBDD6661D4B4A0800B6594C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDD6671D4B4A0800B6594C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBDD67A1D4B4A3E00B6594C /* FocusedButton */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDD67B1D4B4A3E00B6594C /* FocusedButton.h */,
+				CEBDD67C1D4B4A3E00B6594C /* FocusedButton.m */,
+			);
+			path = FocusedButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBDD6621D4B4A0800B6594C /* FocusColor UIButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBDD6771D4B4A0800B6594C /* Build configuration list for PBXNativeTarget "FocusColor UIButton" */;
+			buildPhases = (
+				CEBDD65F1D4B4A0800B6594C /* Sources */,
+				CEBDD6601D4B4A0800B6594C /* Frameworks */,
+				CEBDD6611D4B4A0800B6594C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FocusColor UIButton";
+			productName = "FocusColor UIButton";
+			productReference = CEBDD6631D4B4A0800B6594C /* FocusColor UIButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBDD65B1D4B4A0800B6594C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alex Overseer";
+				TargetAttributes = {
+					CEBDD6621D4B4A0800B6594C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEBDD65E1D4B4A0800B6594C /* Build configuration list for PBXProject "FocusColor UIButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBDD65A1D4B4A0800B6594C;
+			productRefGroup = CEBDD6641D4B4A0800B6594C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBDD6621D4B4A0800B6594C /* FocusColor UIButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBDD6611D4B4A0800B6594C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDD6731D4B4A0800B6594C /* Assets.xcassets in Resources */,
+				CEBDD6711D4B4A0800B6594C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBDD65F1D4B4A0800B6594C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDD66E1D4B4A0800B6594C /* ViewController.m in Sources */,
+				CEBDD66B1D4B4A0800B6594C /* AppDelegate.m in Sources */,
+				CEBDD6681D4B4A0800B6594C /* main.m in Sources */,
+				CEBDD67D1D4B4A3E00B6594C /* FocusedButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEBDD66F1D4B4A0800B6594C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBDD6701D4B4A0800B6594C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBDD6751D4B4A0800B6594C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		CEBDD6761D4B4A0800B6594C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBDD6781D4B4A0800B6594C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "FocusColor UIButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AO.FocusColor-UIButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEBDD6791D4B4A0800B6594C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "FocusColor UIButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AO.FocusColor-UIButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBDD65E1D4B4A0800B6594C /* Build configuration list for PBXProject "FocusColor UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDD6751D4B4A0800B6594C /* Debug */,
+				CEBDD6761D4B4A0800B6594C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBDD6771D4B4A0800B6594C /* Build configuration list for PBXNativeTarget "FocusColor UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDD6781D4B4A0800B6594C /* Debug */,
+				CEBDD6791D4B4A0800B6594C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBDD65B1D4B4A0800B6594C /* Project object */;
+}
