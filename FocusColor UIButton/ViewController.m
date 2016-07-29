@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "FocusedButton.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet FocusedButton *customButton;
 
 @end
 
@@ -16,12 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.customButton buttonColors:[UIColor orangeColor]
+                      andUnfocused:[UIColor blackColor]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

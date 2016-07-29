@@ -45,11 +45,6 @@
                                 <rect key="frame" x="1333" y="324" width="195" height="86"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Button"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="focusColor">
-                                        <color key="value" red="0.56862745100000001" green="0.039215686270000001" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -60,6 +55,9 @@
                             <constraint firstAttribute="trailing" secondItem="BvJ-Yn-rpx" secondAttribute="trailing" constant="20" id="otc-wN-HFp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="customButton" destination="P7V-Ip-jrX" id="eln-Wh-rVf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

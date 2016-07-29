@@ -12,6 +12,9 @@
 
 @interface FocusedButton : UIButton
 
-@property(nonatomic, strong) IBInspectable UIColor *focusColor;
+@property(nonatomic, strong) UIColor *focusColor;
+@property(nonatomic, strong) UIColor *unfocusedColor;
+
+- (void)buttonColors:(UIColor *)focusedColor andUnfocused:(UIColor *)unfocusedColor;
 
 @end

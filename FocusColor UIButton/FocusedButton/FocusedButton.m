@@ -8,11 +8,6 @@
 
 #import "FocusedButton.h"
 
-@interface FocusedButton ()
-
-@property (strong, nonatomic) UIColor *initialBackgroundColour;
-
-@end
 
 @implementation FocusedButton
 
@@ -20,12 +15,19 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
-        
-        self.initialBackgroundColour = [UIColor lightGrayColor];
         self.layer.cornerRadius = 5;
-        self.backgroundColor = self.initialBackgroundColour;
+        self.backgroundColor = [UIColor lightGrayColor];
+        self.focusColor = [UIColor redColor];
+        self.unfocusedColor = [UIColor lightGrayColor];
     }
     return self;
+}
+
+- (void)buttonColors:(UIColor *)focusedColor andUnfocused:(UIColor *)unfocusedColor {
+    
+    self.focusColor = focusedColor;
+    self.unfocusedColor = unfocusedColor;
+    self.backgroundColor = unfocusedColor;
 }
 
 - (void)didUpdateFocusInContext:(UIFocusUpdateContext *)context withAnimationCoordinator:(UIFocusAnimationCoordinator *)coordinator {
@@ -46,7 +48,7 @@
         else {
             
             self.transform = CGAffineTransformIdentity;
-            self.backgroundColor = self.initialBackgroundColour;
+            self.backgroundColor = self.unfocusedColor;
             self.clipsToBounds = YES;
         }
         
